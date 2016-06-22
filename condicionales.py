@@ -82,4 +82,4 @@ while a < 10 :
 		break
 	print a
 else:
-	print 'Número muy grande'
+	print 'Número grande'
