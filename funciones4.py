@@ -20,14 +20,25 @@
 ## Si el segundo es mayor imprime 2
 
 
-def comparar(num1, num2):
-	if num1 > num2:
-		return 1
-	elif num1 < num2:
-		return 2
-	else:
-		return 0
+#def comparar(num1, num2):
+#	if num1 > num2:
+#		return 1
+#	elif num1 < num2:
+#		return 2
+#	else:
+#		return 0
+#
+#
+#print comparar(5,5)
 
 
+#OTRO EJERCICIO
 
-print comparar(5,5)
+def genera_lista(num):
+	i = 1
+	while i <= num:
+		yield i
+		i += 1
+
+for i in genera_lista(100):
+	print i
